@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.ant-input{
+  width:150px !important;
+  margin: 0 5px 10px !important;
+}
+.ant-form-item {
+  display: inline-block !important;
+  flex-flow: row wrap;
+  margin-bottom: 0 !important;
+}
