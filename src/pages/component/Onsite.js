@@ -63,7 +63,7 @@ const Onsite = () => {
   }
 
   const handleTimeEarly = (time) => {
-    const newTime = dayjs(time).subtract(1, 'hour');
+    const newTime = dayjs(time).add(1, 'hour');
     return newTime.format('HH:mm');
   }
 
