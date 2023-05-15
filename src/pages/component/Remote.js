@@ -1,14 +1,14 @@
 import React, { useRef, useState } from "react";
 import { Form, Descriptions, Input, Button, message } from "antd";
 
-const Monitor= () => {
+const Remote= () => {
   const [form] = Form.useForm();
   const divRef = useRef(null);
 
   const onFinish = (values) => {
     const div = document.createElement('div');
     div.innerHTML = `
-              无提醒事项
+              无提请事项
               <br/>
               @@
               <br/>
@@ -70,7 +70,7 @@ const Monitor= () => {
       >
         {/* <Form.Item name="meeting" label="Meeting details" > */}
         <div ref={divRef}>
-          无提醒事项
+          无提请事项
           <br />
           @@
           <br />
@@ -117,4 +117,4 @@ const Monitor= () => {
   );
 };
 
-export default Monitor;
+export default Remote;
