@@ -31,7 +31,7 @@ const Remote = () => {
     div.innerHTML = `
     无提请事项
           <br />
-          @@
+          @@@
           <br />
           1.观察员于${handleTime(values.input1)}拨打会议组织者电话并与其取得联系，被告知本次会议将于${values.input2}在${values.input3}召开，会议时间、地点与计划一致。
           <br />
@@ -110,7 +110,7 @@ const Remote = () => {
         <div ref={divRef}>
           无提请事项
           <br />
-          @@
+          @@@
           <br />
           1.观察员于<Form.Item name="input1" ><TimePicker format={format} /></Form.Item>拨打会议组织者电话并与其取得联系，被告知本次会议将于<Form.Item name="input2" ><Input /></Form.Item>在<Form.Item name="input3" ><Input /></Form.Item>召开，会议时间、地点与计划一致。
           <br />
