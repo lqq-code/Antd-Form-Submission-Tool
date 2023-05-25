@@ -26,7 +26,7 @@ const Meeting = () => {
           <br />
           @@@
           <br />
-          1.观察员于${values.input1} ${handleTime(values.input2)}拨打会议组织者电话并与其取得联系，被告知本次会议为网络会，会议将于当日${handleTime(values.input3)}通过腾讯会议APP线上召开，会议时间与计划一致；观察员通过腾讯会议APP接入会议观察。
+          1.观察员于${handleTime(values.input2)}拨打会议组织者电话并与其取得联系，被告知本次会议为网络会，会议将于当日${handleTime(values.input3)}通过腾讯会议APP线上召开，会议时间与计划一致；观察员通过腾讯会议APP接入会议观察。
           <br />
           2.观察员于${handleTime(values.input4)}通过腾讯会议APP接入会议，全程连接，确认本次会议开始时间为${handleTime(values.input5)}，讲者${values.input6} 于${handleTime(values.input5)}-${handleTime(values.input8)}行演讲，演讲时长${values.input9}min。
           <br />
@@ -96,7 +96,7 @@ const Meeting = () => {
           <br />
           @@@
           <br />
-          1.观察员于<Form.Item name="input1" ><Input /></Form.Item> <Form.Item name="input2" ><TimePicker format={format} /></Form.Item>拨打会议组织者电话并与其取得联系，被告知本次会议为网络会，会议将于当日<Form.Item name="input3" ><TimePicker format={format} /></Form.Item>通过腾讯会议APP线上召开，会议时间与计划一致；观察员通过腾讯会议APP接入会议观察。
+          1.观察员于<Form.Item name="input2" ><TimePicker format={format} /></Form.Item>拨打会议组织者电话并与其取得联系，被告知本次会议为网络会，会议将于当日<Form.Item name="input3" ><TimePicker format={format} /></Form.Item>通过腾讯会议APP线上召开，会议时间与计划一致；观察员通过腾讯会议APP接入会议观察。
           <br />
           2.观察员于<Form.Item name="input4" ><TimePicker format={format} /></Form.Item>通过腾讯会议APP接入会议，全程连接，确认本次会议开始时间为<Form.Item name="input5" ><TimePicker format={format} /></Form.Item>，讲者<Form.Item name="input6" ><Input /></Form.Item>于<Form.Item name="input7" ><Input /></Form.Item>-<Form.Item name="input8" ><TimePicker format={format} /></Form.Item>进行演讲，演讲时长<Form.Item name="input9" ><Input /></Form.Item>min，无答疑讨论环节，会议组织者于<Form.Item name="input10" ><Input /></Form.Item>宣布本次会议正式结束，本次会议共<Form.Item name="input11" ><Input /></Form.Item>min。
           <br />

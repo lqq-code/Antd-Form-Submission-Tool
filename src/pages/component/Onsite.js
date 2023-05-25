@@ -29,7 +29,7 @@ const Onsite = () => {
     <br />
     2.观察员确认会议开始时间为${handleTime(values.input4)}，讲者于${handleTime(values.input4)}-${handleTime(values.input6)}演讲材料，共${(values.input7)}min，无讨论答疑环节。会议于${handleTime(values.input8)}正式结束，会议总时长${(values.input9)}min，讲者服务时长${(values.input10)}min。
     <br />
-    3.观察员观察到本次会议使用ESM系统播放讲解材料，演讲材料主题为${(values.input11)}，审批编码${(values.input12)}，有效期至${(values.input12)}。
+    3.观察员观察到本次会议使用ESM系统播放讲解材料，演讲材料主题为${(values.input11)}，审批编码${(values.input12)}，有效期至${(values.input13)}。
     <br />
     4.观察员观察到包括会议组织者在内最大参会人数为${(values.input14)}人（内部${(values.input15)}人，外部${(values.input16)}人，讲者${(values.input17)}人）。
     <br />
